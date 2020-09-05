@@ -134,5 +134,3 @@ If OperationError, try `#setenforce 0`
 Reference :    
 https://freeprog.tistory.com/45   
 https://dev-yakuza.github.io/ko/django/admin/     
-
-- - - 
