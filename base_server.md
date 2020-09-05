@@ -20,7 +20,7 @@ $lynx localhost
 $ip addr `127.0.0.1` `192.168.0.~`   
 
 try http://192.168.0.~/ in another computer which shared samd ip   
-try http://~ .~ .~ .~ :~/ in any computer which not shared same ip   
+try http:// ~ . ~ . ~ . ~ : ~ / in any computer which not shared same ip   
 
 $cd /var/www/html   
 $sudo vi index.html `Hello` `This is test html` `Welcome~~~`   
