@@ -30,4 +30,5 @@ $cd ~
 $systemctl stop httpd   
 You can't see the website. It's error.    
 ***
-Reference: https://wikidocs.net/16275
+Reference:   
+https://wikidocs.net/16275
