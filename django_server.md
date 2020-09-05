@@ -94,8 +94,8 @@ Add `ServerName localhost`
 #systemctl restart httpd   
 
 try localhost in same computer    
-try http://192.168.0.12/ in another computer which shared samd ip     
-try http://112.152.20.211:1998/ in any computer which not shared same ip    
+try http://192.168.0.~/ in another computer which shared samd ip     
+try http:// ~ . ~ . ~ . ~ : ~ / in any computer which not shared same ip    
 
 !!!!! `django` !!!!!    
 ***
@@ -165,33 +165,29 @@ try 127.0.0.1/cate2/<str>
 Ex) `127.0.0.1/cate2/나이키/` `127.0.0.1/cate2/iphone 11`   
 
 
-학교에서 여기까지 함. 학교는 인터넷 잡을 때 수동으로 해야함. 라우팅 해제하고. 
+~~학교에서 여기까지 함. 학교는 인터넷 잡을 때 수동으로 해야함. 라우팅 해제하고. ~~
 
 #python3 manage.py makemigrations   
 #python3 manage.py migrate   
-왜 하는진 이유를 모르겠다.    
-
+~~이 코드가 왜 필요한지 모른다. ~~
+ 
 #python3 manage.py createsuperuser   
 Username: admin   
 Email address: admin@example.com   
 Password: * 2   
 Superuser created successfully   
-왜 하는진 이유를 모르겠다.    
+~~이 코드가 왜 필요한지 모른다. ~~
 
 - - -
-What I have to do :    
-~~1. Convert from Category number to Category name~~ 나경이가 model에서 해준다고 했다      
-~~2. Run on other computers~~   
-~~3. Why it takes so long time to restart httpd?~~  다음날 하니 잘 되네. 중간에 코드가 뭔가 이상했나봐.    
 
 2. Run on other computers   
-try 112.152.20.211:1998 `Gateway Timeout` `The gateway did not receive a timely response from the upstream server or application`     
+try ~ . ~ . ~ . ~ : ~ `Gateway Timeout` `The gateway did not receive a timely response from the upstream server or application`     
 /etc/httpd/conf.d/vhost.conf에 `WSGIApplicationGroup %{GLOBAL}`를 추가하면 같은 공유기 내 컴퓨터에서 가능. LTE 사용해도 가능.    
 
 #python3 manage.py runserver를 하지 않아도 된다. #systemctl start httpd만 해주면 알아서 잘 된다.    
 
-try 112.152.20.211:1998/test/lulu `Keyword : lulu`   
-try 112.152.20.211:1998/cate/lulu `FileNotFoundError at /cate/lulu/` `[Errno 2] No such file or directory: 'ios_prediction.pkl'` `[Errno 2] No such file or directory: 'preprocessing_chunk0.csv'`    
+try ~ . ~ . ~ . ~ : ~ /test/lulu `Keyword : lulu`   
+try ~ . ~ . ~ . ~ : ~ /cate/lulu `FileNotFoundError at /cate/lulu/` `[Errno 2] No such file or directory: 'ios_prediction.pkl'` `[Errno 2] No such file or directory: 'preprocessing_chunk0.csv'`    
 
 #vi /opt/app1/ios_predict.py    
 Modify `ios_prediction.pkl` -> `/opt/app1/download/ios_prediction.pkl`    
@@ -201,7 +197,7 @@ Modify `preprocessing_chunk0.csv` -> `/opt/app1/download/preprocessing_chunk0.cs
 #mv ios_prediction.pkl download    
 #mv preprocessing_chunk0.csv download    
 
-try 112.152.20.211:1998/test/lulu `Keyword : lulu, Prediction : [310]`       
+try ~ . ~ . ~ . ~ : ~ /test/lulu `Keyword : lulu, Prediction : [310]`       
 
 The End! 다음은 db연동으로 돌아옵니다~    
 - - -
@@ -225,10 +221,3 @@ https://ossian.tistory.com/94
 https://victorydntmd.tistory.com/258   
 https://beomi.github.io/2018/03/09/Truncated_or_oversized_response_headers_received_from_daemon_process_django_wsgi/    
 https://serverfault.com/questions/514242/non-responsive-apache-mod-wsgi-after-installing-scipy/514251#514251    
-***
-
-
-
-
-
-
