@@ -17,10 +17,10 @@ $lynx localhost
 `Testing 123.. `   
 ~~$sudo yum install -y elinks~~ no operating   
 
-$ip addr `127.0.0.1` `192.168.0.12`   
+$ip addr `127.0.0.1` `192.168.0.~`   
 
-try http://192.168.0.12/ in another computer which shared samd ip   
-try http://112.152.20.211:1998/ in any computer which not shared same ip   
+try http://192.168.0.~/ in another computer which shared samd ip   
+try http://~.~.~.~:~/ in any computer which not shared same ip   
 
 $cd /var/www/html   
 $sudo vi index.html `Hello` `This is test html` `Welcome~~~`   
@@ -31,4 +31,3 @@ $systemctl stop httpd
 You can't see the website. It's error.    
 ***
 Reference: https://wikidocs.net/16275
-***
