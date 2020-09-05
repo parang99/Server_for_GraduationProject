@@ -179,8 +179,7 @@ Superuser created successfully
 ~~이 코드가 왜 필요한지 모른다.~~
 
 - - -
-
-2. Run on other computers   
+Run on other computers   
 try ~ . ~ . ~ . ~ : ~ `Gateway Timeout` `The gateway did not receive a timely response from the upstream server or application`     
 /etc/httpd/conf.d/vhost.conf에 `WSGIApplicationGroup %{GLOBAL}`를 추가하면 같은 공유기 내 컴퓨터에서 가능. LTE 사용해도 가능.    
 
