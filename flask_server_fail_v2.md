@@ -87,8 +87,6 @@ add `LoadModule wsgi_module modules/mod_wsgi.so`   `User nobody`   `Group nobody
 add `import sys` `sys.path.insert(0, '/home/server_user/python_app')` `from hello_world import app as application`    
 
 
-
-
 `(test)`$cd /var/www/   
 `(test)`~~$ls~~ `cgi-bin` `html`   
 `(test)`~~$mkdir flasktest~~ `Permission denied`   
@@ -158,24 +156,6 @@ $elinks 127.0.0.1 `Internal Server Error`
 $sudo cat /etc/httpd/logs/error_log    
 $halt -p   
 
-
-
-
-
 - - -
-root https://taetaetae.github.io/2018/06/29/simple-web-server-flask-apache/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Reference:    
+https://taetaetae.github.io/2018/06/29/simple-web-server-flask-apache/
