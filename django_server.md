@@ -21,8 +21,8 @@ Log in root.
 #ip addr `127.0.0.1` `192.168.0.12`   
 
 try localhost in same computer     
-try http://192.168.0.12/ in another computer which shared samd ip     
-try http://112.152.20.211:1998/ in any computer which not shared same ip     
+try http://192.168.0.~/ in another computer which shared samd ip     
+try http:// ~ . ~ . ~ . ~ : ~ / in any computer which not shared same ip     
   
 ***
 ### Python 3.x Version
