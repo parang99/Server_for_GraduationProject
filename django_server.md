@@ -165,18 +165,18 @@ try 127.0.0.1/cate2/<str>
 Ex) `127.0.0.1/cate2/나이키/` `127.0.0.1/cate2/iphone 11`   
 
 
-~~학교에서 여기까지 함. 학교는 인터넷 잡을 때 수동으로 해야함. 라우팅 해제하고. ~~
+~~학교에서 여기까지 함. 학교는 인터넷 잡을 때 수동으로 해야함. 라우팅 해제하고.~~
 
 #python3 manage.py makemigrations   
 #python3 manage.py migrate   
-~~이 코드가 왜 필요한지 모른다. ~~
+~~이 코드가 왜 필요한지 모른다.~~
  
 #python3 manage.py createsuperuser   
 Username: admin   
 Email address: admin@example.com   
 Password: * 2   
 Superuser created successfully   
-~~이 코드가 왜 필요한지 모른다. ~~
+~~이 코드가 왜 필요한지 모른다.~~
 
 - - -
 
