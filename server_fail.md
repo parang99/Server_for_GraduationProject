@@ -139,27 +139,7 @@ $elinks 127.0.0.1 `Internal Server Error`
 $sudo cat /etc/httpd/logs/error_log    
 $halt -p   
 
-
-
-
-
 - - -
-root https://blog.chemdev.net/14
-
-qhwh https://pentestlab.tistory.com/73?category=738399
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Reference:    
+https://blog.chemdev.net/14   
+https://pentestlab.tistory.com/73?category=738399   
